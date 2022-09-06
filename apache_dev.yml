@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apache-dev
+spec:
+  selector:
+    matchLabels:
+      app: apache-pod-kube
+  replicas: 5
+  template:
+    metadata:
+      labels:
+        app: apache-pod-kube
+    spec:
+      containers:
+      - name: apache-pra
+        image: httpd
+        ports:
+        - containerPort: 80

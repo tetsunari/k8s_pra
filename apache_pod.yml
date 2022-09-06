@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metaData:
+  name: apache-pod
+  labels:
+    app: apache-pod-kube
+spec:
+  containers:
+    - name: apache-pra
+      image: httpd
+      ports:
+        - containerPort: 80
