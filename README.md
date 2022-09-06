@@ -16,3 +16,11 @@
 ``` 
 No resources found in default namespace. 
 ```
+
+`kubectl delete -f apache_ser.yml`  //サービスの削除
+
+`kubectl get service` //サービス削除の確認
+```
+NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   56m
+```
