@@ -24,3 +24,7 @@ No resources found in default namespace.
 NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
 kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   56m
 ```
+
+# 2024/08/19
+[つくって、壊して、直して学ぶ Kubernetes入門](https://www.shoeisha.co.jp/book/detail/9784798183961)
+でkubernetesをさわってみる
